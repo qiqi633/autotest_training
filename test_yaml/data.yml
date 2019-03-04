@@ -1,0 +1,50 @@
+animal: pets
+ani: {'a':1,'b':2}
+anim:
+  - data1
+  - data2
+list: [1,2,3,4]
+YML_Data:
+  da1: true
+  da2: false
+yy:
+  da1: 12
+  da2: 12.232
+  da3: None
+  da4:
+  da5: ~
+  da6: null
+
+
+Test:
+  login_data01:
+    name: lili
+    pwd: 4656
+  login_data02:
+    name: lila
+    pwd: 4656
+  login_data03:
+    name: lild
+    pwd: 4656
+  login_data04:
+    name: lilg
+    pwd: 4656
+
+
+Test_01:
+  sms_code: &code
+    code_info: 12345
+  login:
+    name: lili
+    pwd: 12345
+    <<: *code
+
+Search_Data:
+  search_001: # test case number
+    test: 1
+  search_002:
+    test: 2
+  search_003:
+    test: ÖÐÎÄ
+  search_004:
+    test: &sdjfisd
