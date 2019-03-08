@@ -1,5 +1,0 @@
-"Status","Name","Duration in ms","Description"
-"passed","test_yaml.yaml_achieve.search#test_fun[search_003-中文]","7683",""
-"passed","test_yaml.yaml_achieve.search#test_fun[search_002-2]","8349",""
-"passed","test_yaml.yaml_achieve.search#test_fun[search_001-1]","7940",""
-"broken","test_yaml.yaml_achieve.search#test_fun[search_004-None]","1450",""
