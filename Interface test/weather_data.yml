@@ -1,0 +1,76 @@
+para:
+  test01_right:
+    key: 414719b9e90f06a720cea3eb07a2fa4b
+    city_id: 1157
+    weather_date: 2018-7-15
+  test02_cityid_none:
+    key: 414719b9e90f06a720cea3eb07a2fa4b
+    city_id: ~
+    weather_date: 2018-7-15
+  test03_cityid_wrong:
+    key: 414719b9e90f06a720cea3eb07a2fa4b
+    city_id: 5214
+    weather_date: 2018-7-15
+  test04_key_none:
+    key: Null
+    city_id: 1157
+    weather_date: 2018-7-15
+  test05_key_wrong:
+    key: 414719b9e90f06a720cea3eb07a2fa4s
+    city_id: 1157
+    weather_date: 2018-7-15
+  test06_weath_none:
+    key: 414719b9e90f06a720cea3eb07a2fa4b
+    city_id: 1157
+    weather_date: Null
+  test07_weath_wrong:
+    key: 414719b9e90f06a720cea3eb07a2fa4b
+    city_id: 1157
+    weather_date: None
+
+jenkins_login:
+  right_case:
+    j_username: qiqi
+    j_password: 0117151026imok
+    from: /
+    Submit: Sign in
+  wrong_username:
+    j_username: qiqi123
+    j_password: 0117151026imok
+    from: /
+    Submit: Sign in
+  zh_username:
+    j_username: ÆåÆå
+    j_password: 0117151026imok
+    from: /
+    Submit: Sign in
+  none_username:
+    j_username: null
+    j_password: 0117151026imok
+    from: /
+    Submit: Sign in
+  long_username:
+    j_username: sdfsdfsfsfdssdfsdf
+    j_password: 0117151026imok
+    from: /
+    Submit: Sign in
+  wrong_pwd:
+    j_username: qiqi
+    j_password: 0117151026
+    from: /
+    Submit: Sign in
+  num_username:
+    j_username: 21312312312
+    j_password: 0117151026imok
+    from: /
+    Submit: Sign in
+  none_pwd:
+    j_username: qiqi
+    j_password: null
+    from: /
+    Submit: Sign in
+  characters:
+    j_username: qiqi$%^
+    j_password: 0117151026^&*&
+    from: /
+    Submit: Sign in
