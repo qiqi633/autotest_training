@@ -3,5 +3,5 @@ import re
 
 url_tap = 'https://www.baidu.com/'
 s = requests.session()
-res = s.get(url_tap,timeout = 5)
+res = s.get(url_tap)
 print(res)
